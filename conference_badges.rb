@@ -10,7 +10,7 @@ end
 
 def assign_rooms(speakers)
   assignments = []
-  1..7.times do |assign|
+  7.times do |assign|
     assignments << "Hello, #{speakers[assign]}! You'll be assigned to room #{assign}!"
   end
   assignments
