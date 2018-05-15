@@ -18,6 +18,6 @@ end
 
 def printer(attendees)
   badges = batch_badge_creator(attendees)
-  badges.each { |badge| puts "#{badges[badge]"}
+  badges.each { |num| puts "#{badges[num]"}
 end
 
