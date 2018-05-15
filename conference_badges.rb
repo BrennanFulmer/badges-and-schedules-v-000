@@ -9,7 +9,8 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(speakers)
-  0...7.times do {}
+  0...7.times do |assign|
+  end
 end
 
 def printer
