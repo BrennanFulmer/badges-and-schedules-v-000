@@ -1,6 +1,7 @@
 # Write your code here.
 
 def badge_maker(name)
+  return 
 end
 
 def batch_badge_creator
