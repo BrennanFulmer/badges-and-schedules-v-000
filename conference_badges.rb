@@ -13,6 +13,7 @@ def assign_rooms(speakers)
   1..7.times do |assign|
     assignments << "Hello, #{speakers[assign}! You'll be assigned to room #{assign}!"
   end
+  assignments
 end
 
 def printer
